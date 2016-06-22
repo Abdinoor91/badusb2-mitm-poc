@@ -41,7 +41,7 @@ __Eavesdrop.__ Once the keyboard has been registered to the target all keystroke
 
 __Modify.__ Weaponised code could use regular expressions to modify user keystrokes in order to defeat one-time-passwords. In this POC we simply annoy the user :)
 
-__Replay.__ The POC code will automatically detect 'ctrl-alt-delete' and assume it is a login session. It stops recording once the 'enter' key is pressed. Ay any time the 'replay' command can be given to automatically authenticate to the workstation.
+__Replay.__ The POC code will automatically detect 'ctrl-alt-delete' and assume it is a login session. It stops recording once the 'enter' key is pressed. At any time the 'replay' command can be given to automatically authenticate to the workstation.
 
 __Fabricate.__ Start/Run or generic commands can be issued to the target operating-system just as if you were at the keyboard. 
 
